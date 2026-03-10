@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-22 14:59+0000\n"
-"PO-Revision-Date: 2024-07-22 14:59+0000\n"
+"POT-Creation-Date: 2026-03-10 10:13+0000\n"
+"PO-Revision-Date: 2026-03-10 10:13+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -80,32 +80,31 @@ msgstr "Test del control de calidad"
 #. module: quality_control_claim
 #. odoo-python
 #: code:addons/quality_control_claim/models/qc_inspection.py:0
-#, python-format
 msgid ""
 "Quality test %(test_name)s for %(name)s unsurpassed, in test line "
 "%(line_name)s"
 msgstr ""
+"Test de calidad %(test_name)s para %(name)s no superado, en la línea de "
+"test %(line_name)s"
 
 #. module: quality_control_claim
 #. odoo-python
 #: code:addons/quality_control_claim/models/qc_inspection.py:0
-#, python-format
 msgid "Quality test %(test_name)s for object %(name)s unsurpassed"
-msgstr ""
+msgstr "Test de calidad %(test_name)s para el objeto %(name)s no superado"
 
 #. module: quality_control_claim
 #. odoo-python
 #: code:addons/quality_control_claim/models/qc_inspection.py:0
-#, python-format
 msgid "Quality test %(test_name)s unsurpassed"
-msgstr ""
+msgstr "Test de calidad %(test_name)s no superado"
 
 #. module: quality_control_claim
 #. odoo-python
 #: code:addons/quality_control_claim/models/qc_inspection.py:0
-#, python-format
 msgid "Quality test %(test_name)s unsurpassed, in test line %(line_name)s"
 msgstr ""
+"Test de calidad %(test_name)s no superado, en la línea de test %(line_name)s"
 
 #. module: quality_control_claim
 #: model_terms:ir.actions.act_window,help:quality_control_claim.action_claims_per_inspection
